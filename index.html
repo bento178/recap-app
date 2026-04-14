@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Recap</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gerador de Recap</h1>
+    </header>
+    <main>
+        <section id="input-section">
+            <h2>Entradas</h2>
+            <textarea id="input-text" rows="10" placeholder="Digite seu texto aqui..."></textarea>
+            <label for="style-selector">Selecionar Estilo:</label>
+            <select id="style-selector">
+                <option value="serio">Sério</option>
+                <option value="engraçado">Engraçado</option>
+                <option value="dramatico">Dramático</option>
+                <option value="rapido">Rápido</option>
+            </select>
+
+            <label for="format-selector">Selecionar Formato:</label>
+            <select id="format-selector">
+                <option value="longo">Longo</option>
+                <option value="curto">Curto</option>
+                <option value="bullets">Bullets</option>
+            </select>
+        </section>
+        <section id="output-section">
+            <h2>Saída</h2>
+            <div id="output-text"></div>
+        </section>
+        <section id="controls">
+            <button id="generate-recap">Gerar Recap</button>
+            <button id="generate-audio">Áudio</button>
+            <button id="generate-video">Vídeo</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
