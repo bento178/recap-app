@@ -1,0 +1,1 @@
+{\n  "name": "recap-app",\n  "version": "1.0.0",\n  "main": "index.js",\n  "scripts": {\n    "start": "electron ."\n  },\n  "dependencies": {\n    "electron": "^25.0.0",\n    "openai": "^3.0.0",\n    "tts": "^1.0.0",\n    "ffmpeg": "^1.0.0"\n  }\n}
