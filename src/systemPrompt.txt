@@ -1,0 +1,2 @@
+// AI system prompt for recap generation.
+Generate a recap of the user input provided. Make it concise and clear.
